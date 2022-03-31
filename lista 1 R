@@ -1,0 +1,61 @@
+##########################################exercício 1 
+nomes <- c("marcos aguiar", "paula miranda", "emilio santos", "priscila albuquerque")
+
+##########################################exercíco 2 
+nomes[4] <- c("pryscilla de albuquerque")
+nomes
+
+##########################################exercício 3 
+nomes <- c("marcos aguiar", "paula miranda", "emilio santos", "priscila albuquerque")
+salarios <- c(4000, 2500, 1200, 3400)
+
+##########################################exercício 4
+salarios
+salario = salarios - (salarios) * 0.3 
+salario
+
+##########################################exercício 5
+a <- 3+4*5-76/2
+b <- 3+(4*5)-(76/2)
+C <- (3+4)*5-76/2
+a
+b
+c
+'D'
+
+##########################################exercício 6      -- CANCELADA --
+nomes2 <- c(" Marcos", "Manuel", "Paula")
+
+#exercício 7 
+idades <- c(13,14,8)
+
+'c'
+
+#########################################exercício 8
+prova1 <-c(8,9,5,6,7,8,8,8,5)
+prova2 <-c(2,3,4,3,6,4,2,9,5)
+prova3 <-c(1,6,2,9,1,10,2,9,2)
+
+prova1[prova1>7]
+
+prova2[prova2==7]
+
+prova3[c(2,4,6)] 
+
+length(prova2[prova2!=4]) #informa que temos 7 pessoas que tiraram nota diferente de
+#4 na prova 2.
+
+'d'
+
+########################################exercício 9
+prova1<−c(3,6,4,2,7,8,5,6)
+prova2<−c(6,10,3,6,4,2.7,5)
+prova3<−c(10,10,5,7,4,6,2,7)
+
+sum (prova1, prova2, prova3)
+100* ((prova2-prova1)/prova1)
+
+mean(prova1)
+
+setdiff(prova1, prova2)
+ 'a'

@@ -1,0 +1,22 @@
+#Exercício 5 para criar tabela 
+nome <- c("marcos aguuiar", "paula miranda", "emilio santos", "priscylla de albuquerque")
+salario <- c(4000,5500.33,1200,3400)
+idade <- c(44, 56, 76, 40)
+tabela <- cbind(nome, salario, idade)
+tabela
+
+#exercício 6
+salario[2]<-5500.33
+tabela
+
+#exercício 7 
+tabela <-as.numeric_version(salario - salario *0.3)
+tabela
+
+#exercício 8
+tabela <- as.numeric(mean(salario))
+tabela 
+
+#exercício 9 -> não deu certo 
+tabela <- colnames(nome)
+tabela

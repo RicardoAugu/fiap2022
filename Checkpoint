@@ -1,0 +1,78 @@
+# EXERCÍCIO 1
+
+seq(10,100,10)
+seq(10,100,5)
+rep(1:4,3)
+rep(1:4,3) 
+
+"C"
+
+
+# EXERCÍCIO 2
+#sample = amostra, número aleatório
+
+sample(1:50,5)
+sample (c("cara", "coroa"),5,replace=T)
+sample       
+sample(c(1,2,3,4,5),5)
+sample(c(1,2,3,4,5,6),2)
+
+"A"
+
+
+# EXERCÍCIO 3 - replace recria uma string 
+
+sample(1:30,5,replace=F) #escolher cinco números aleatórios entre 1 e 30
+
+
+
+# EXERCÍCIO 4 
+
+cadastro <- matrix( c(NA, NA, NA, NA), nrow = 3, ncol = 4, dimnames = list(NULL, c("Nome", "Idade", "Cidade", "Telefone")))
+cadastro <- matrix( c("nome", "idade", "cidade", "telefone"),nrow = 3, ncol = 4)
+cadastro
+
+cadastro[1,] <- c("Maria das Dores", 56, "Sao Paulo",3025-111)
+cadastro[2,] <- c("José Aníbal", 40, "Santos'", 3333-012)
+cadastro[,2:4]
+cadastro
+
+"C"
+
+
+# EXERCÍCIO 5 para criar tabela 
+
+nome <- c("marcos aguuiar", "paula miranda", "emilio santos", "priscylla de albuquerque")
+salario <- c(4000,5500.33,1200,3400)
+idade <- c(44, 56, 76, 40)
+tabela <- cbind(nome, salario, idade)
+tabela
+
+
+
+# EXERCÍCIO 6
+
+salario[2,]<-5500.33
+tabela
+
+
+
+# EXERCÍCIO 7 
+
+tabela <-as.numeric_version(salario - salario *0.3)
+tabela
+
+
+
+# EXERCÍCIO 8
+
+tabela <- as.numeric(mean(salario))
+tabela 
+
+
+
+# EXERCÍCIO 9 -> não deu certo 
+
+tabela <- colnames(nome)
+tabela
+
